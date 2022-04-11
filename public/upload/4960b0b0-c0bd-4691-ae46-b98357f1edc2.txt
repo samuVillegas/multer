@@ -1,9 +1,0 @@
-SELECT cpi.id FROM auth.auth_users au
-INNER JOIN cv.cv_personal_info cpi ON cpi.id_user = au.id
-WHERE au.email = 'villegassamuel25@hotmail.com'
-
-SELECT * FROM adm.adm_prospects_preference app
-WHERE app.id_cv_user = 2462
-
-SELECT * FROM adm.adm_prospect_stages aps 
-WHERE aps.id_prospect_preference  = 2651
