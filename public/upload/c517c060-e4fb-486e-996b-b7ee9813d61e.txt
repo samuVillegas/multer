@@ -1,0 +1,7 @@
+INSERT INTO auth_users (full_name,last_name,email,remove) VALUES
+('Yudith Karina','León Villasmil', 'yudith.leon@agileinnova.org',0),
+('José Daniel','García Jaime','jose.garcia@agileinnova.org',0),
+('Gustavo','Tovar', 'gustavo.tovar@agileinnova.org',0)
+
+INSERT INTO auth_user_roles (id_user,id_role)
+VALUES (2419,3),(2418,3),(2417,3)
